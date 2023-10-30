@@ -5,3 +5,40 @@
     padding: 0;
     margin: 0;
 }
+
+.container {
+    width: 100%;
+}
+
+/* HEADER */
+
+/* DEBUG */
+
+/* HEADER */
+.header-top {
+    width: 100%;
+    padding: 20px;
+    background-color: #ADD8E6;
+}
+
+.items-header {
+    width: 75%;
+    margin: auto;
+    background-color: #DAA520;
+    display: flex;
+}
+
+.items-header>* {
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.link {
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.logo,
+.login {
+    flex-basis: 20%;
+}
