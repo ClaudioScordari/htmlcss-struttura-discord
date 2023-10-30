@@ -14,7 +14,7 @@
 
 /* DEBUG */
 
-/* HEADER */
+/* HEADER - TOP */
 .header-top {
     width: 100%;
     padding: 20px;
@@ -41,4 +41,20 @@
 .logo,
 .login {
     flex-basis: 20%;
+}
+
+/* HEADER-BOTTOM */
+
+.header-bottom {
+    width: 100%;
+    padding: 60px;
+    background-color: #00008B;
+}
+
+.pink-box {
+    background-color: #EE82EE;
+    border: 2px dashed black;
+    width: 55%;
+    height: 400px;
+    margin: auto;
 }
