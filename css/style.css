@@ -58,3 +58,27 @@
     height: 400px;
     margin: auto;
 }
+
+/* MAIN */
+
+/* SECTION 1 */
+
+.box-section_1 {
+    display: flex;
+    padding: 50px;
+    width: 75%;
+    height: 600px;
+    margin: auto;
+}
+
+.sky_blue {
+    background-color: #1E90FF;
+    border: 2px dashed black;
+    flex-basis: 65%;
+}
+
+.lightpink {
+    background-color: #FFC0CB;
+    border: 2px dashed black;
+    flex-basis: 45%;
+}
