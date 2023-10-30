@@ -61,10 +61,9 @@
 
 /* MAIN */
 
-/* SECTION 1 */
+/* SECTION 1 E SSECTION 3*/
 
-.box-section_1,
-.box-section_2 {
+section>* {
     display: flex;
     padding: 50px;
     width: 75%;
