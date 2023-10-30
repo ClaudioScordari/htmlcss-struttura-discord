@@ -63,7 +63,8 @@
 
 /* SECTION 1 */
 
-.box-section_1 {
+.box-section_1,
+.box-section_2 {
     display: flex;
     padding: 50px;
     width: 75%;
@@ -81,4 +82,14 @@
     background-color: #FFC0CB;
     border: 2px dashed black;
     flex-basis: 45%;
+}
+
+/* SECTION 2 */
+
+section:nth-of-type(2) {
+    background-color: #D3D3D3;
+}
+
+.box-section_2 {
+    flex-direction: row-reverse;
 }
